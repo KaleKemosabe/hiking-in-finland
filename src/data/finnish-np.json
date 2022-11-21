@@ -1,0 +1,270 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "UKK",
+            "info_url": "https://www.nationalparks.fi/",
+            "location": {
+                "lat": 68.346987,
+                "lon": 27.461655,
+                "address": {
+                "street_address": "Kiilopääntie 620",
+                "postal_code": "99830",
+                "locality": "Saariselkä"
+                }
+            }
+        },
+        {
+            "id": 2,
+            "name": "Helvetinjärvi",
+            "info_url": "https://www.nationalparks.fi/",
+            "location": {
+                "lat": 62.057326,
+                "lon": 23.8628803,
+                "address": {
+                "street_address": "Helvetinkoluntie 775",
+                "postal_code": "34600",
+                "locality": "Ruovesi"
+                }
+            }
+        },
+        {
+            "id": 3,
+            "name": "Nuuksio",
+            "info_url": "https://www.nationalparks.fi/",
+            "location": {
+                "lat": 60.2937108,
+                "lon": 24.5570395,
+                "address": {
+                "street_address": "Nuuksiontie 84",
+                "postal_code": "02820",
+                "locality": "Espoo"
+                }
+            }
+        },
+        {
+            "id": 4,
+            "name": "Repovesi",
+            "info_url": "https://www.nationalparks.fi/",
+            "location": {
+                "lat": 61.1607666,
+                "lon": 26.83661,
+                "address": {
+                "street_address": "Riippusillantie 55",
+                "postal_code": "47910",
+                "locality": "Kouvola"
+                }
+            }
+        },
+        {
+            "id": 5,
+            "name": "Isojärvi",
+            "info_url": "https://www.nationalparks.fi/",
+            "location": {
+                "lat": 61.6744813,
+                "lon": 25.0000628,
+                "address": {
+                "street_address": "Kylämäntie 1335",
+                "postal_code": "17950",
+                "locality": "Kylämä"
+                }
+            }
+        },
+        {
+            "id": 6,
+            "name": "Etelä-Konnevesi",
+            "info_url": "https://www.nationalparks.fi/",
+            "location": {
+                "lat": 62.6206984,
+                "lon": 26.8384638,
+                "address": {
+                "street_address": "Törmälän metsätie 136",
+                "postal_code": "77700",
+                "locality": "Rautalampi"
+                }
+            }
+        },
+        {
+            "id": 7,
+            "name": "Teijo",
+            "info_url": "https://www.nationalparks.fi/",
+            "location": {
+                "lat": 60.2091949,
+                "lon": 22.9373197,
+                "address": {
+                "street_address": "Matildanjärventie 79",
+                "postal_code": "25660",
+                "locality": "Salo"
+                }
+            }
+        },
+        {
+            "id": 8,
+            "name": "Hiidenportti",
+            "info_url": "https://www.nationalparks.fi/",
+            "location": {
+                "lat": 63.9059193,
+                "lon": 28.978237,
+                "address": {
+                "street_address": "Hiidenportintie 86",
+                "postal_code": "88600",
+                "locality": "Sotkamo"
+                }
+            }
+        },
+        {
+            "id": 9,
+            "name": "Hossa",
+            "info_url": "https://www.nationalparks.fi/",
+            "location": {
+                "lat": 65.4677372,
+                "lon": 29.5184506,
+                "address": {
+                "street_address": "Jatkonsalmentie 6",
+                "postal_code": "89920",
+                "locality": "Ruhtinansalmi"
+                }
+            }
+        },
+        {
+            "id": 10,
+            "name": "Itäinen Suomenlahti",
+            "info_url": "https://www.nationalparks.fi/",
+            "location": {
+                "lat": 60.208774,
+                "lon": 27.275957,
+                "address": {
+                "street_address": "",
+                "postal_code": "",
+                "locality": ""
+                }
+            }
+        },
+        {
+            "id": 11,
+            "name": "Kauhaneva-Pohjankangas",
+            "info_url": "https://www.nationalparks.fi/",
+            "location": {
+                "lat": 62.1373063,
+                "lon": 22.5603265,
+                "address": {
+                "street_address": "Kyrönkankaantie 345",
+                "postal_code": "39930",
+                "locality": "Karvia"
+                }
+            }
+        },
+        {
+            "id": 12,
+            "name": "Koli",
+            "info_url": "https://www.nationalparks.fi/",
+            "location": {
+                "lat": 63.0961731,
+                "lon": 29.8059434,
+                "address": {
+                "street_address": "Ylä-Kolintie 31",
+                "postal_code": "83960",
+                "locality": "Lieksa"
+                }
+            }
+        },
+        {
+            "id": 13,
+            "name": "Kolovesi",
+            "info_url": "https://www.nationalparks.fi/",
+            "location": {
+                "lat": 62.237205505371094,
+                "lon": 28.906620025634766,
+                "address": {
+                "street_address": "Kirkkorannantie 200",
+                "postal_code": "58180",
+                "locality": "Enonkoski"
+                }
+            }
+        },
+        {
+            "id": 14,
+            "name": "Kurjenrahka",
+            "info_url": "https://www.nationalparks.fi/",
+            "location": {
+                "lat": 60.741321,
+                "lon": 22.4196378,
+                "address": {
+                "street_address": "Kuhankuonontie 67",
+                "postal_code": "21930",
+                "locality": "Pöytyä"
+                }
+            }
+        },
+        {
+            "id": 15,
+            "name": "Lauhanvuori",
+            "info_url": "https://www.nationalparks.fi/",
+            "location": {
+                "lat": 62.1320656,
+                "lon": 22.1452348,
+                "address": {
+                "street_address": "Lauhanvuorentie 656",
+                "postal_code": "61960",
+                "locality": "Isojoki"
+                }
+            }
+        },
+        {
+            "id": 16,
+            "name": "Leivonmäki",
+            "info_url": "https://www.nationalparks.fi/",
+            "location": {
+                "lat": 61.9785473,
+                "lon": 26.0375721,
+                "address": {
+                "street_address": "Syysniementie 1072",
+                "postal_code": "41710",
+                "locality": "Joutsa"
+                }
+            }
+        },
+        {
+            "id": 17,
+            "name": "Lemmenjoki",
+            "info_url": "https://www.nationalparks.fi/",
+            "location": {
+                "lat": 68.75570678710938,
+                "lon": 26.2265625,
+                "address": {
+                "street_address": "Lemmenjoen kylätie 107",
+                "postal_code": "99885",
+                "locality": "Inari"
+                }
+            }
+        },
+        {
+            "id": 18,
+            "name": "Liesjärvi",
+            "info_url": "https://www.nationalparks.fi/",
+            "location": {
+                "lat": 60.6839513,
+                "lon": 23.8306771,
+                "address": {
+                "street_address": "Kanteluksentie 211",
+                "postal_code": "31380",
+                "locality": "Tammela"
+                }
+            }
+        },
+        {
+            "id": 19,
+            "name": "Linnansaari",
+            "info_url": "https://www.nationalparks.fi/",
+            "location": {
+                "lat": 62.1210814,
+                "lon": 28.3117776,
+                "address": {
+                "street_address": "Porosalmentie 313",
+                "postal_code": "58900",
+                "locality": "Rantasalmi"
+                }
+            }
+        }
+    ]
+}
