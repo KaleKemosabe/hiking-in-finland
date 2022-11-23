@@ -4,9 +4,8 @@ import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
 import Description from "../components/SectionAbout";
 import SectionMap from "../components/SectionMap";
-import SectionEvents from "../components/SectionEvents";
 import FeaturedHikes from "../components/FeaturedHikes";
-import Contact from "../components/SectionContact";
+import Links from "../components/SectionLinks";
 import Footer from "../components/Footer";
 
 export default function Home() {
@@ -24,9 +23,8 @@ export default function Home() {
       </Hero>
       <Description />
       <SectionMap />
-      <SectionEvents />
       <FeaturedHikes />
-      <Contact />
+      <Links />
       <Footer />
     </>
   );

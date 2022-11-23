@@ -1,21 +1,10 @@
 import React from "react";
 import Title from "./Title";
 import { Link } from "react-router-dom";
-import bgPhotoMap from "../images/quiz-bg.jpg";
 
 function SectionMap() {
   return (
-    <section
-      className="homepage-map"
-      style={{
-        backgroundImage: `url(${bgPhotoMap})`,
-        backgroundRepeat: "no-repeat",
-        backgroundAttachment: "fixed",
-        backgroundPosition: "right",
-        width: "100%",
-        color: "#ffffff",
-      }}
-    >
+    <section className="homepage-map">
       <Title title="Map" />
       <div className="section-map-container">
         <div className="section-map-text">

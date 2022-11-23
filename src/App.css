@@ -142,10 +142,7 @@ h6 {
   padding: 1rem 0;
   color: var(--mainBlack);
   transition: var(--mainTransition);
-  text-align: center;
-  font-size: 1rem;
-  font-weight: 600;
-  letter-spacing: var(--mainSpacing);
+  font-size: 1.2rem;
 }
 .nav-links a:hover {
   color: var(--primaryColor);
@@ -308,18 +305,14 @@ h6 {
   margin: 0 auto;
   padding: 5rem 0;
   text-align: center;
-  min-height: 80vh;
+  background-color: var(--mainGrey);
 }
 
 .section-map-container {
   display: inline-block;
-  background: rgba(255, 255, 255, 0.9);
   color: var(--mainBlack);
   margin: 0 1rem;
-  padding: 3rem 2rem;
   text-align: center;
-  text-transform: capitalize;
-  letter-spacing: var(--mainSpacing);
   max-width: 920px;
   border-radius: 5px;
 }

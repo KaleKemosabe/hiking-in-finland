@@ -39,13 +39,10 @@ export default class Navbar extends Component {
               <Link to="/mappage">Map</Link>
             </li>
             <li>
-              <Link to="/events">Events</Link>
-            </li>
-            <li>
               <Link to="/hikes">Stories</Link>
             </li>
             <li>
-              <Link to="/#contact-section">Contact</Link>
+              <Link to="/#links-section">Links</Link>
             </li>
           </ul>
         </div>

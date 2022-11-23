@@ -1,12 +1,12 @@
 import React from "react";
 import Title from "./Title";
 
-function Contact() {
+function Links() {
   return (
     <section className="description">
-      <Title title="Contact me" />
+      <Title title="Useful Links" />
     </section>
   );
 }
 
-export default Contact;
+export default Links;

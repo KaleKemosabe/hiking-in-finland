@@ -12,8 +12,8 @@ export default class Description extends Component {
       },
       {
         icon: <FaStreetView />,
-        title: "Events",
-        info: "Just some ideas of what to do and where to go. Listing a bunch of random nature-related events.",
+        title: "Info",
+        info: "Brief descriptions about all of the national parks and links to make finding information easier.",
       },
       {
         icon: <FaHiking />,
