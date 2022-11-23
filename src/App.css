@@ -565,6 +565,39 @@ h6 {
   margin-bottom: 0.5rem;
 }
 
+/* national parks table */
+.parks-search-input {
+  display: block;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 0 auto 1rem auto;
+  width: 300px;
+}
+
+.parks-table {
+  margin:2rem auto;
+  border:2px solid black;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+thead th {
+  text-align: left;
+  background-color: var(--mainGrey);
+  border: 2px solid black;
+}
+
+.parks-fields th,
+.parks-fields td {
+  padding: 0.5rem;
+}
+
+tbody td {
+  border: 1px solid black;
+}
+
+/* end of national parks table */
+
 /* Contact section */
 .contact-container {
   min-height: 50vh;

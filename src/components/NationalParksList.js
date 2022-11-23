@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Title from "./Title";
 import { data } from "../data/finnish-np.json";
 
 function NationalParksList() {
@@ -7,21 +8,21 @@ function NationalParksList() {
 
   return (
     <div>
-      <h1 className="text-center mt-4">List of National Parks</h1>
+      <Title title="List of National Parks" />
       <input
+        className="parks-search-input"
         type="text"
-        placeholder="Search national parks"
+        placeholder="Filter list"
         onChange={(e) => setSearch(e.target.value)}
       />
-      <table>
+      <table className="parks-table">
         <thead>
-          <tr>
+          <tr className="parks-fields">
             <th>Name</th>
-            <th>Location</th>
-            <th>More info</th>
+            <th>Short Description</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody className="parks-body">
           {data
             .filter((item) => {
               return search.toLowerCase() === ""
@@ -29,10 +30,9 @@ function NationalParksList() {
                 : item.name.toLowerCase().includes(search);
             })
             .map((item, index) => (
-              <tr key={index}>
+              <tr key={index} className="parks-fields">
                 <td>{item.name}</td>
-                <td>{item.location.address.locality}</td>
-                <td>{item.info_url}</td>
+                <td>{item.description}</td>
               </tr>
             ))}
         </tbody>
