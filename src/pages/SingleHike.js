@@ -53,23 +53,24 @@ export default class SingleHike extends Component {
           </div>
           <div className="single-hike-info">
             <article className="desc">
-              <h3>Lyhyt info</h3>
+              <h3>Short Recap</h3>
               <p>{description}</p>
             </article>
             <article className="info">
-              <h3>Linkki koko juttuun</h3>
+              <h3>Read Full Story</h3>
+              <p>Full stories coming soon...</p>
               <a
                 href="https://etureppu.fi/reissut"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Linkki Etureppuun
+                Etureppu (Finnish only)
               </a>
             </article>
           </div>
         </section>
         <section className="hike-extras">
-          <h6>Pääpointit?</h6>
+          <h6>Main Points</h6>
           <ul className="extras">
             {extras.map((item, index) => {
               return <li key={index}> - {item}</li>;

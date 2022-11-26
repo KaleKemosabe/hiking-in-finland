@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-// TODO change logo to lottie animation
-// import animationData from '../images/lottie/forest.json';
 import { FaAlignJustify, FaMountain } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -33,16 +31,13 @@ export default class Navbar extends Component {
             className={this.state.isOpen ? "nav-links show-nav" : "nav-links"}
           >
             <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
               <Link to="/mappage">Map</Link>
             </li>
             <li>
               <Link to="/hikes">Stories</Link>
             </li>
             <li>
-              <Link to="/#links-section">Links</Link>
+              <Link to="/about">About</Link>
             </li>
           </ul>
         </div>

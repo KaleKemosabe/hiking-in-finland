@@ -10,7 +10,7 @@ const Map = () => {
   return (
     <>
       <Hero hero="hikesHero">
-        <Banner title="Kartta">
+        <Banner title="Map">
           <Link to="/" className="btn-primary">
             Back to homepage
           </Link>

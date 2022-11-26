@@ -6,14 +6,13 @@
   box-sizing: border-box;
 }
 :root {
-  --primaryColor: #af9a7d;
-  --mainWhite: #fff;
-  --offWhite: #f7f7f7;
-  --mainBlack: #222;
-  --mainGrey: #ececec;
-  --darkGrey: #cfcfcf;
+  --primaryColor: #99C259;
+  --mainWhite: #FFFFFF;
+  --mainBlack: #333333;
+  --darkGrey: #383A39;
+  --mainGrey: #ECECEC;
   --mainTransition: all 0.3s linear;
-  --mainSpacing: 3px;
+  --mainSpacing: 2px;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
@@ -63,6 +62,7 @@ h6 {
   background: var(--primaryColor);
   padding: 0.4rem 0.9rem;
   border: 3px solid var(--primaryColor);
+  border-radius: 2px;
   transition: var(--mainTransition);
   text-transform: uppercase;
   cursor: pointer;
@@ -96,7 +96,7 @@ h6 {
   left: 0;
   width: 100%;
   padding: 0.75rem 2rem;
-  background: var(--offWhite);
+  background: var(--mainGrey);
   z-index: 1;
 }
 
@@ -122,6 +122,7 @@ h6 {
 .nav-btn {
   background: transparent;
   border: none;
+  border-radius: 2px;
   cursor: pointer;
   outline: none;
 }
@@ -146,6 +147,7 @@ h6 {
 }
 .nav-links a:hover {
   color: var(--primaryColor);
+  text-decoration: underline;
 }
 /* show links on click */
 .show-nav {
@@ -264,6 +266,7 @@ h6 {
 .description {
   background: var(--darkGrey);
   text-align: center;
+  color: var(--mainWhite);
 }
 .description-center {
   width: 90vw;
@@ -310,7 +313,6 @@ h6 {
 
 .section-map-container {
   display: inline-block;
-  color: var(--mainBlack);
   margin: 0 1rem;
   text-align: center;
   max-width: 920px;
@@ -319,6 +321,7 @@ h6 {
 
 .section-map-text .btn-primary {
   margin-top: 2rem;
+  border-radius: 2px;
 }
 
 /* featured hikes */
@@ -351,6 +354,7 @@ h6 {
 .hike {
   box-shadow: var(--lightShadow);
   transition: var(--mainTransition);
+  border-radius: 2px;
 }
 .hike:hover {
   box-shadow: var(--darkShadow);
@@ -368,7 +372,7 @@ h6 {
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: var(--darkGrey);
   color: var(--mainWhite);
   padding: 0.3rem 0.6rem 0.5rem;
   border-bottom-right-radius: 1rem;
@@ -403,6 +407,7 @@ h6 {
 }
 .hike-info {
   background: var(--darkGrey);
+  color: var(--mainWhite);
   text-transform: capitalize;
   padding: 0.5rem 0;
   text-align: center;
@@ -532,7 +537,7 @@ h6 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border: 1px solid #333333;
+  border: 1px solid var(--mainBlack);
 }
 
 .navControl {
@@ -591,18 +596,16 @@ tbody td {
 
 /* end of national parks table */
 
-/* Contact section */
-.contact-container {
-  min-height: 50vh;
-  background: var(--darkGrey);
-  text-align: center;
+.about-page {
+  width: 100vw;
+  background-color: var(--darkGrey);
 }
-/* Contact section end */
 
 /* Footer */
 .footer {
   height: 4rem;
-  background: var(--primaryColor);
+  color: var(--mainWhite);
+  background: var(--mainBlack);
   text-align: center;
   padding-top: 1.5rem;
 }
