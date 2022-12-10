@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "../components/Hero";
 import Banner from "../components/Banner";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 import Description from "../components/SectionAbout";
 import SectionMap from "../components/SectionMap";
 import FeaturedHikes from "../components/FeaturedHikes";
@@ -16,7 +16,7 @@ export default function Home() {
           title="Hiking in Finland"
           subtitle="This website contains information about Finnish nature and national parks."
         >
-          <Link to="/hikes" className="btn-primary">
+          <Link to="#section-about" className="btn-primary">
             Read more
           </Link>
         </Banner>

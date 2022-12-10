@@ -3,7 +3,6 @@ import Title from "./Title";
 import { data } from "../data/finnish-np.json";
 
 function NationalParksList() {
-  //   const [nationalParks, setNationalParks] = useState(data);
   const [search, setSearch] = useState("");
 
   return (

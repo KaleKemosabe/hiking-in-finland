@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { FaStreetView, FaHiking, FaMapSigns } from "react-icons/fa";
 import Title from "./Title";
-import { Link } from "react-router-dom";
 
 export default class Description extends Component {
   state = {
@@ -26,7 +25,7 @@ export default class Description extends Component {
 
   render() {
     return (
-      <section className="description">
+      <section id="section-about" className="description">
         <Title title="About this page" />
         <div className="section-text">
           This website contains information about Finnish national parks and
