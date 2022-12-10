@@ -6,7 +6,10 @@ import { Link } from "react-router-dom";
 export default function Error() {
   return (
     <Hero>
-      <Banner title="404" subtitle="Pahoittelut, sivu on hukkunut metsään">
+      <Banner
+        title="404"
+        subtitle="The website got lost in the Finnish forest."
+      >
         <Link to="/" className="btn-primary">
           Back to homepage
         </Link>
