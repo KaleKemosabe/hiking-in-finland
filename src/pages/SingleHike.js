@@ -23,7 +23,7 @@ export default class SingleHike extends Component {
     if (!hike) {
       return (
         <div className="error">
-          <h3>Pahoittelut, kohde hukkunut metsään</h3>
+          <h3>"The website got lost in the Finnish forest."</h3>
           <Link to="/hikes" className="btn-primary">
             Back to homepage
           </Link>
@@ -55,17 +55,6 @@ export default class SingleHike extends Component {
             <article className="desc">
               <h3>Short Recap</h3>
               <p>{description}</p>
-            </article>
-            <article className="info">
-              <h3>Read Full Story</h3>
-              <p>Full stories coming soon...</p>
-              <a
-                href="https://etureppu.fi/reissut"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Etureppu (Finnish only)
-              </a>
             </article>
           </div>
         </section>
